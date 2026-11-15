@@ -1,0 +1,170 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "web_gui.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": false
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "name",
+   "value": "MalodyBPMDetector"
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "app_icon.ico"
+  },
+  {
+   "optionDest": "clean_build",
+   "value": true
+  },
+  {
+   "optionDest": "hookspath",
+   "value": "packaging/hooks"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.autocorr"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.decoder"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.detector"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.enhanced"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.enhanced_v2"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.enhanced_v3"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.force_v3"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.v3_post_refine"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.envelope"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.filters"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "malody_bpm.harmonic"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "flask"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "werkzeug.serving"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_algo_doc"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_lifecycle"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_offset"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_precheck"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_settings"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_silence"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_tempo_regions"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "web_gui_unmatched"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "auto_py_to_exe"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "eel"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "gevent"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "greenlet"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "zope"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "pytest"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "delocate"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "setuptools"
+  },
+  {
+   "optionDest": "excludes",
+   "value": "pip"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": "",
+  "outputDirectory": "output"
+ }
+}
